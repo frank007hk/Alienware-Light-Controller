@@ -73,30 +73,32 @@
             // 
             // cbAera
             // 
+            this.cbAera.BackColor = System.Drawing.Color.Black;
+            this.cbAera.ForeColor = System.Drawing.Color.White;
             this.cbAera.FormattingEnabled = true;
             this.cbAera.Location = new System.Drawing.Point(5, 5);
             this.cbAera.Name = "cbAera";
-            this.cbAera.Size = new System.Drawing.Size(450, 21);
+            this.cbAera.Size = new System.Drawing.Size(450, 20);
             this.cbAera.TabIndex = 0;
             // 
             // lbRed
             // 
             this.lbRed.AutoSize = true;
             this.lbRed.ForeColor = System.Drawing.Color.Red;
-            this.lbRed.Location = new System.Drawing.Point(5, 31);
+            this.lbRed.Location = new System.Drawing.Point(5, 29);
             this.lbRed.Name = "lbRed";
-            this.lbRed.Size = new System.Drawing.Size(30, 13);
+            this.lbRed.Size = new System.Drawing.Size(27, 12);
             this.lbRed.TabIndex = 1;
             this.lbRed.Text = "Red:";
             // 
             // tbRed
             // 
             this.tbRed.AutoSize = false;
-            this.tbRed.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.tbRed.Location = new System.Drawing.Point(50, 31);
+            this.tbRed.BackColor = System.Drawing.Color.Black;
+            this.tbRed.Location = new System.Drawing.Point(50, 29);
             this.tbRed.Maximum = 255;
             this.tbRed.Name = "tbRed";
-            this.tbRed.Size = new System.Drawing.Size(261, 30);
+            this.tbRed.Size = new System.Drawing.Size(261, 28);
             this.tbRed.SmallChange = 5;
             this.tbRed.TabIndex = 2;
             this.tbRed.TickFrequency = 5;
@@ -104,9 +106,12 @@
             // 
             // txtRed
             // 
-            this.txtRed.Location = new System.Drawing.Point(316, 41);
+            this.txtRed.BackColor = System.Drawing.Color.Black;
+            this.txtRed.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtRed.ForeColor = System.Drawing.Color.White;
+            this.txtRed.Location = new System.Drawing.Point(316, 38);
             this.txtRed.Name = "txtRed";
-            this.txtRed.Size = new System.Drawing.Size(70, 20);
+            this.txtRed.Size = new System.Drawing.Size(70, 22);
             this.txtRed.TabIndex = 3;
             this.txtRed.Text = "0";
             this.txtRed.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -114,9 +119,12 @@
             // 
             // txtGreen
             // 
-            this.txtGreen.Location = new System.Drawing.Point(317, 77);
+            this.txtGreen.BackColor = System.Drawing.Color.Black;
+            this.txtGreen.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtGreen.ForeColor = System.Drawing.Color.White;
+            this.txtGreen.Location = new System.Drawing.Point(317, 71);
             this.txtGreen.Name = "txtGreen";
-            this.txtGreen.Size = new System.Drawing.Size(70, 20);
+            this.txtGreen.Size = new System.Drawing.Size(70, 22);
             this.txtGreen.TabIndex = 6;
             this.txtGreen.Text = "0";
             this.txtGreen.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -125,11 +133,11 @@
             // tbGreen
             // 
             this.tbGreen.AutoSize = false;
-            this.tbGreen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.tbGreen.Location = new System.Drawing.Point(50, 67);
+            this.tbGreen.BackColor = System.Drawing.Color.Black;
+            this.tbGreen.Location = new System.Drawing.Point(50, 62);
             this.tbGreen.Maximum = 255;
             this.tbGreen.Name = "tbGreen";
-            this.tbGreen.Size = new System.Drawing.Size(261, 30);
+            this.tbGreen.Size = new System.Drawing.Size(261, 28);
             this.tbGreen.SmallChange = 5;
             this.tbGreen.TabIndex = 5;
             this.tbGreen.TickFrequency = 5;
@@ -139,17 +147,20 @@
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.Lime;
-            this.label1.Location = new System.Drawing.Point(5, 67);
+            this.label1.Location = new System.Drawing.Point(5, 62);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(39, 13);
+            this.label1.Size = new System.Drawing.Size(36, 12);
             this.label1.TabIndex = 4;
             this.label1.Text = "Green:";
             // 
             // txtBlue
             // 
-            this.txtBlue.Location = new System.Drawing.Point(317, 113);
+            this.txtBlue.BackColor = System.Drawing.Color.Black;
+            this.txtBlue.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBlue.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtBlue.Location = new System.Drawing.Point(317, 104);
             this.txtBlue.Name = "txtBlue";
-            this.txtBlue.Size = new System.Drawing.Size(70, 20);
+            this.txtBlue.Size = new System.Drawing.Size(70, 22);
             this.txtBlue.TabIndex = 9;
             this.txtBlue.Text = "0";
             this.txtBlue.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -158,11 +169,11 @@
             // tbBlue
             // 
             this.tbBlue.AutoSize = false;
-            this.tbBlue.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.tbBlue.Location = new System.Drawing.Point(50, 103);
+            this.tbBlue.BackColor = System.Drawing.Color.Black;
+            this.tbBlue.Location = new System.Drawing.Point(50, 95);
             this.tbBlue.Maximum = 255;
             this.tbBlue.Name = "tbBlue";
-            this.tbBlue.Size = new System.Drawing.Size(261, 30);
+            this.tbBlue.Size = new System.Drawing.Size(261, 28);
             this.tbBlue.SmallChange = 5;
             this.tbBlue.TabIndex = 8;
             this.tbBlue.TickFrequency = 5;
@@ -172,9 +183,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.Blue;
-            this.label2.Location = new System.Drawing.Point(5, 103);
+            this.label2.Location = new System.Drawing.Point(5, 95);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(31, 13);
+            this.label2.Size = new System.Drawing.Size(30, 12);
             this.label2.TabIndex = 7;
             this.label2.Text = "Blue:";
             // 
@@ -183,9 +194,9 @@
             this.rbSolid.AutoSize = true;
             this.rbSolid.Checked = true;
             this.rbSolid.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.rbSolid.Location = new System.Drawing.Point(5, 139);
+            this.rbSolid.Location = new System.Drawing.Point(5, 128);
             this.rbSolid.Name = "rbSolid";
-            this.rbSolid.Size = new System.Drawing.Size(48, 17);
+            this.rbSolid.Size = new System.Drawing.Size(47, 16);
             this.rbSolid.TabIndex = 10;
             this.rbSolid.TabStop = true;
             this.rbSolid.Text = "Solid";
@@ -196,9 +207,9 @@
             // 
             this.rbBreath.AutoSize = true;
             this.rbBreath.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.rbBreath.Location = new System.Drawing.Point(59, 139);
+            this.rbBreath.Location = new System.Drawing.Point(59, 128);
             this.rbBreath.Name = "rbBreath";
-            this.rbBreath.Size = new System.Drawing.Size(56, 17);
+            this.rbBreath.Size = new System.Drawing.Size(54, 16);
             this.rbBreath.TabIndex = 11;
             this.rbBreath.Text = "Breath";
             this.rbBreath.UseVisualStyleBackColor = true;
@@ -210,9 +221,9 @@
             this.btnApply.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnApply.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnApply.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnApply.Location = new System.Drawing.Point(381, 139);
+            this.btnApply.Location = new System.Drawing.Point(381, 128);
             this.btnApply.Name = "btnApply";
-            this.btnApply.Size = new System.Drawing.Size(74, 21);
+            this.btnApply.Size = new System.Drawing.Size(74, 19);
             this.btnApply.TabIndex = 16;
             this.btnApply.Text = "Apply";
             this.btnApply.UseVisualStyleBackColor = false;
@@ -222,9 +233,9 @@
             // 
             this.rbRainbow.AutoSize = true;
             this.rbRainbow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.rbRainbow.Location = new System.Drawing.Point(121, 139);
+            this.rbRainbow.Location = new System.Drawing.Point(121, 128);
             this.rbRainbow.Name = "rbRainbow";
-            this.rbRainbow.Size = new System.Drawing.Size(67, 17);
+            this.rbRainbow.Size = new System.Drawing.Size(65, 16);
             this.rbRainbow.TabIndex = 12;
             this.rbRainbow.Text = "Rainbow";
             this.rbRainbow.UseVisualStyleBackColor = true;
@@ -233,9 +244,9 @@
             // pic
             // 
             this.pic.BackColor = System.Drawing.Color.Black;
-            this.pic.Location = new System.Drawing.Point(392, 31);
+            this.pic.Location = new System.Drawing.Point(392, 29);
             this.pic.Name = "pic";
-            this.pic.Size = new System.Drawing.Size(63, 102);
+            this.pic.Size = new System.Drawing.Size(63, 94);
             this.pic.TabIndex = 14;
             this.pic.TabStop = false;
             // 
@@ -256,19 +267,19 @@
             this.toolStripMenuItem2,
             this.menuClose});
             this.contextMenuStrip.Name = "contextMenuStrip";
-            this.contextMenuStrip.Size = new System.Drawing.Size(153, 98);
+            this.contextMenuStrip.Size = new System.Drawing.Size(121, 76);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(120, 22);
             this.toolStripMenuItem1.Text = "Go Dark";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(149, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(117, 6);
             // 
             // toolStripMenuItem2
             // 
@@ -281,76 +292,76 @@
             this.purpleToolStripMenuItem,
             this.customToolStripMenuItem});
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(120, 22);
             this.toolStripMenuItem2.Text = "Breath";
             // 
             // redToolStripMenuItem
             // 
             this.redToolStripMenuItem.Name = "redToolStripMenuItem";
-            this.redToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.redToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
             this.redToolStripMenuItem.Text = "Red";
             this.redToolStripMenuItem.Click += new System.EventHandler(this.ToolStripMenuItem_Click);
             // 
             // yellowToolStripMenuItem
             // 
             this.yellowToolStripMenuItem.Name = "yellowToolStripMenuItem";
-            this.yellowToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.yellowToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
             this.yellowToolStripMenuItem.Text = "Yellow";
             this.yellowToolStripMenuItem.Click += new System.EventHandler(this.ToolStripMenuItem_Click);
             // 
             // greenToolStripMenuItem
             // 
             this.greenToolStripMenuItem.Name = "greenToolStripMenuItem";
-            this.greenToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.greenToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
             this.greenToolStripMenuItem.Text = "Green";
             this.greenToolStripMenuItem.Click += new System.EventHandler(this.ToolStripMenuItem_Click);
             // 
             // cyanToolStripMenuItem
             // 
             this.cyanToolStripMenuItem.Name = "cyanToolStripMenuItem";
-            this.cyanToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.cyanToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
             this.cyanToolStripMenuItem.Text = "Cyan";
             this.cyanToolStripMenuItem.Click += new System.EventHandler(this.ToolStripMenuItem_Click);
             // 
             // blueToolStripMenuItem
             // 
             this.blueToolStripMenuItem.Name = "blueToolStripMenuItem";
-            this.blueToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.blueToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
             this.blueToolStripMenuItem.Text = "Blue";
             this.blueToolStripMenuItem.Click += new System.EventHandler(this.ToolStripMenuItem_Click);
             // 
             // purpleToolStripMenuItem
             // 
             this.purpleToolStripMenuItem.Name = "purpleToolStripMenuItem";
-            this.purpleToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.purpleToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
             this.purpleToolStripMenuItem.Text = "Purple";
             this.purpleToolStripMenuItem.Click += new System.EventHandler(this.ToolStripMenuItem_Click);
             // 
             // customToolStripMenuItem
             // 
             this.customToolStripMenuItem.Name = "customToolStripMenuItem";
-            this.customToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.customToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
             this.customToolStripMenuItem.Text = "Custom";
             this.customToolStripMenuItem.Click += new System.EventHandler(this.ToolStripMenuItem_Click);
             // 
             // menuClose
             // 
             this.menuClose.Name = "menuClose";
-            this.menuClose.Size = new System.Drawing.Size(152, 22);
+            this.menuClose.Size = new System.Drawing.Size(120, 22);
             this.menuClose.Text = "Exit";
             this.menuClose.Click += new System.EventHandler(this.menuClose_Click);
             // 
             // tbSecond
             // 
             this.tbSecond.AutoSize = false;
-            this.tbSecond.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tbSecond.BackColor = System.Drawing.Color.Black;
             this.tbSecond.Enabled = false;
             this.tbSecond.LargeChange = 50;
-            this.tbSecond.Location = new System.Drawing.Point(242, 139);
+            this.tbSecond.Location = new System.Drawing.Point(242, 128);
             this.tbSecond.Maximum = 1000;
             this.tbSecond.Minimum = 100;
             this.tbSecond.Name = "tbSecond";
-            this.tbSecond.Size = new System.Drawing.Size(133, 21);
+            this.tbSecond.Size = new System.Drawing.Size(133, 19);
             this.tbSecond.TabIndex = 15;
             this.tbSecond.TickFrequency = 100;
             this.tbSecond.Value = 250;
@@ -360,9 +371,9 @@
             // 
             this.lblDelay.AutoSize = true;
             this.lblDelay.ForeColor = System.Drawing.Color.White;
-            this.lblDelay.Location = new System.Drawing.Point(195, 143);
+            this.lblDelay.Location = new System.Drawing.Point(195, 132);
             this.lblDelay.Name = "lblDelay";
-            this.lblDelay.Size = new System.Drawing.Size(37, 13);
+            this.lblDelay.Size = new System.Drawing.Size(35, 12);
             this.lblDelay.TabIndex = 13;
             this.lblDelay.Text = "Delay:";
             // 
@@ -370,18 +381,18 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(195, 143);
+            this.label3.Location = new System.Drawing.Point(195, 132);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 13);
+            this.label3.Size = new System.Drawing.Size(36, 12);
             this.label3.TabIndex = 14;
             this.label3.Text = "Speed:";
             // 
             // AlienFXControl
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(460, 172);
+            this.ClientSize = new System.Drawing.Size(460, 159);
             this.Controls.Add(this.lblDelay);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.tbSecond);
@@ -400,10 +411,13 @@
             this.Controls.Add(this.tbRed);
             this.Controls.Add(this.lbRed);
             this.Controls.Add(this.cbAera);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "AlienFXControl";
+            this.Opacity = 0.8D;
+            this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AlienFX Controller";
             ((System.ComponentModel.ISupportInitialize)(this.tbRed)).EndInit();

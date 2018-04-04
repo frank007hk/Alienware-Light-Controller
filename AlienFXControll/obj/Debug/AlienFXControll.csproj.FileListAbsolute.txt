@@ -10,3 +10,12 @@ C:\Users\always\Desktop\AlienFXControll\AlienFXControll\obj\Debug\AlienFXControl
 C:\Users\always\Desktop\AlienFXControll\AlienFXControll\obj\Debug\AlienFXControll.pdb
 C:\Users\always\Desktop\AlienFXControllreg\AlienFXControll\obj\Debug\AlienFXControll.exe
 C:\Users\always\Desktop\AlienFXControllreg\AlienFXControll\obj\Debug\AlienFXControll.pdb
+C:\AlienwareLightControl\AlienFXControll\bin\Debug\AlienFXControll.exe
+C:\AlienwareLightControl\AlienFXControll\bin\Debug\AlienFXControll.pdb
+C:\AlienwareLightControl\AlienFXControll\obj\Debug\AlienFXControll.csprojResolveAssemblyReference.cache
+C:\AlienwareLightControl\AlienFXControll\obj\Debug\WindowsFormsApplication1.AlienFXControl.resources
+C:\AlienwareLightControl\AlienFXControll\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\AlienwareLightControl\AlienFXControll\obj\Debug\AlienFXControll.csproj.GenerateResource.cache
+C:\AlienwareLightControl\AlienFXControll\obj\Debug\AlienFXControll.csproj.CoreCompileInputs.cache
+C:\AlienwareLightControl\AlienFXControll\obj\Debug\AlienFXControll.exe
+C:\AlienwareLightControl\AlienFXControll\obj\Debug\AlienFXControll.pdb
