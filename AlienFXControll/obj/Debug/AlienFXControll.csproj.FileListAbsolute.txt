@@ -1,0 +1,12 @@
+C:\Users\frankh\Documents\Visual Studio 2008\Projects\AlienFXControll\AlienFXControll\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\frankh\Documents\Visual Studio 2008\Projects\AlienFXControll\AlienFXControll\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\frankh\Documents\Visual Studio 2008\Projects\AlienFXControll\AlienFXControll\obj\Debug\AlienFXControll.csproj.GenerateResource.Cache
+C:\Users\frankh\Documents\Visual Studio 2008\Projects\AlienFXControll\AlienFXControll\bin\Debug\AlienFXControll.exe
+C:\Users\frankh\Documents\Visual Studio 2008\Projects\AlienFXControll\AlienFXControll\bin\Debug\AlienFXControll.pdb
+C:\Users\frankh\Documents\Visual Studio 2008\Projects\AlienFXControll\AlienFXControll\obj\Debug\AlienFXControll.exe
+C:\Users\frankh\Documents\Visual Studio 2008\Projects\AlienFXControll\AlienFXControll\obj\Debug\AlienFXControll.pdb
+C:\Users\frankh\Documents\Visual Studio 2008\Projects\AlienFXControll\AlienFXControll\obj\Debug\WindowsFormsApplication1.AlienFXControl.resources
+C:\Users\always\Desktop\AlienFXControll\AlienFXControll\obj\Debug\AlienFXControll.exe
+C:\Users\always\Desktop\AlienFXControll\AlienFXControll\obj\Debug\AlienFXControll.pdb
+C:\Users\always\Desktop\AlienFXControllreg\AlienFXControll\obj\Debug\AlienFXControll.exe
+C:\Users\always\Desktop\AlienFXControllreg\AlienFXControll\obj\Debug\AlienFXControll.pdb
